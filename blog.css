@@ -1,0 +1,10 @@
+body {
+    position: relative;
+    left: 80px;
+}
+
+ul {
+    position: relative;
+    left: -35px;
+    list-style-type: none;
+}
