@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+    section, aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media  screen and (min-width: 200px) { 
+    body{
+    float: none;
+    text-align: center;
+    }
+}
+
+body{
+    text-align: center;
+}
+.house {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: -2px;
+}
+
+.black {
+    background-color: rgb(179, 179, 179);
+}
+
+.letras { 
+    text-align: center;
+    position: relative;
+    left: 10px;
+ 
+   
+}
+
+
