@@ -20,14 +20,18 @@ body{
 
 .letra {
     position: absolute;
-    top:  700px;
-    left: 377px;
+    top:  770px;
+    left: 400px;
 }
 
 .letras {
-    width: 7vw;
+    width: 7.2vw;
     height: 10vh;
     display: inline-block;
     margin: -1px;
 }
 
+.imgd {
+    width:90px;
+    height:90px
+}
