@@ -1,0 +1,99 @@
+#facebookimg{
+    position: absolute;
+    top: 9%;
+    left: 13.5%;
+}
+
+#begin{
+  position: absolute;
+  top: 17%;
+  left: 15%;
+
+}
+
+#alo {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+}
+
+#Email {
+  font-size: 100%;
+  text-indent: 1em;
+  height:45px;
+  width:350px;
+  font-family:Arial, Helvetica, sans-serif;
+  border:0.5px;
+  outline-color:blue;
+  margin:5px;
+  color:black;
+  caret-color:blue
+}
+
+#Senha {
+  font-size: 100%;
+  text-indent: 1em;
+  height:45px;
+  width:350px;
+  font-family: Arial, Helvetica, sans-serif, black;
+  border:0.5px;
+  outline-color:blue;
+  margin:5px;
+  color:black;
+  caret-color:blue;
+}
+
+#entrar {
+  font-size: 100%;
+  height:45px;
+  width:350px;
+  font-family: Arial, Helvetica, sans-serif;
+  border:1px rgb(0, 81, 255);
+  background-color: rgb(0, 81, 255);
+  margin:5px;
+  color:white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#essenha {
+  color: rgb(0, 81, 255);
+  text-decoration: none;
+  position: absolute;
+  top: 95%;
+  left: 35%;
+}
+
+#criarConta { 
+  font-size: 100%;
+  height:45px;
+  width:150px;
+  font-family: Arial, Helvetica, sans-serif;
+  border:1px rgb(5, 187, 5);
+  background-color:rgb(6, 190, 6);
+  position: absolute;
+  top: 125%;
+  left: 30%;
+  color:white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#criarConta:hover {
+  background-color: rgb(85, 170, 0);
+}
+
+#last {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+}
+
+#llast {
+  font-size: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+}

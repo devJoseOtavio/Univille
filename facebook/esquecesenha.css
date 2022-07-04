@@ -1,0 +1,69 @@
+.sidebar {
+    background-color: blue;
+}
+
+h1 {
+    position: relative;
+    left: 10px;
+    font-family: inherit;
+    color: white;
+}
+
+h2 {
+    font-family: inherit;
+    color: blue;
+}
+
+input {
+    border-radius: 3px;
+    width: 230px;
+    height: 18px;
+    border: none;
+}
+
+.inputRegister {
+    font-size: 100%;
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+
+#loginConta { 
+    font-size: 100%;
+    height:30px;
+    width:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:1px rgb(5, 187, 5);
+    background-color:rgb(6, 190, 6);
+    position: absolute;
+    top: -5px;
+    left: 500px;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+#loginConta:hover {
+    background-color: rgb(85, 170, 0);
+}
+
+.Pesquisar { 
+    font-size: 100%;
+    height:30px;
+    width:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:1px rgb(5, 187, 5);
+    background-color:rgb(6, 190, 6);
+    position: absolute;
+    top: 155px;
+    left: 260px;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.Pesquisar:hover {
+    background-color: rgb(85, 170, 0);
+}
