@@ -1,20 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register</title>
+    <script src="validate.js"></script>
+    <link href="criarconta.css" rel="stylesheet">
 </head>
-<Link rel="stylesheet" type="text/css" href="criarconta.css">
 <body>
+    <form>
+      <h2>Criar sua Conta</h2>
+      <p>Crie uma senha para acessar sua conta junto ao email cadastrado.</p>
+      <div class="form-control">
+        <label for="username">email</label>
+        <input id="form-control-user" class="form-control-input" type="email" name="username" id="username" autocapitalize="none"/>
+      </div>
 
-        <p><h1>Cadastre-se</h1>É rapido e fácil.</p>
-        <Input type="nome" placeholder="Nome"><input type="sobrenome" placeholder="Sobrenome"><br>
-        <Input type="celular e email" placeholder="Celular ou email"><br>
-        <input type="password" placeholder="Nova senha"><br>
-    <label for="data">Data de nascimento</label><br>
-            <input type="date" id="data" name="datanasc">
-
+      <div class="form-control">
+        <label for="password">Senha</label>
+        <input id="form-control-password" class="form-control-input" type="password" name="password" id="password" required/>
+      </div>
+       
+      <div class="form-control">
+        <label for="password">Confirmar senha</label>
+        <input id="form-control-password" class="form-control-input" type="password" name="repassword" id="repassword" required/>
+      </div>
+      <div>
+        <input type="checkbox" class="checkRegister" required>Li e concordo com os <a  class="checkRegister" href="#">Termos de Uso do facebook</a>
+      </div>
+      <button id="login">Criar conta</button>
+      <hr>
+      <p>Já tem uma conta? <a href="face.html">entre aqui<a></p>
+  </form>
 </body>
 </html>
